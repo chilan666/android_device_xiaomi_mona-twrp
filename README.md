@@ -14,4 +14,3 @@
 ## Image-related Notes
 - For some reason, this device (A/B) can't boot a custom recovery image temporarily; `fastboot boot twrp-name.img` doesn't work.
 - If you flash TWRP like you are directly flashing boot.img, there's a chance of breaking the booting process and will throw in a bootloop.
-- Decryption is working, and flashing some archives works too. MTP and Vibration didn't.
