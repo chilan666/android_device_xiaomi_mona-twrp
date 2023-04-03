@@ -135,5 +135,5 @@ TW_Y_OFFSET := 89
 TW_H_OFFSET := -89
 
 # Kernel module loading
-#TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/modules)\")
+TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/modules)\")
 #
