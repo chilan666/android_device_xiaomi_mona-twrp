@@ -23,7 +23,7 @@ AB_OTA_PARTITIONS := \
     vendor_boot
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := redwood,redwoodin
+TARGET_OTA_ASSERT_DEVICE := zijin
 
 # Architecture
 TARGET_ARCH := arm64
