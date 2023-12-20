@@ -19,8 +19,8 @@ BOARD_VENDOR := $(or $(word 2,$(subst /, ,$(firstword $(MAKEFILE_LIST)))),$(valu
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := $(CUSTOM_VENDOR)_$(PRODUCT_RELEASE_NAME)
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := 22101320G
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := 2109119BC
 PRODUCT_MANUFACTURER := $(BOARD_VENDOR)
 
 # Device path for OEM device tree
