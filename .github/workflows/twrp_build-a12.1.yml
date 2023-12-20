@@ -51,7 +51,7 @@ on:
       UPLOAD:
         description: 'Upload to Telegram Bot (true or false)'
         required: true
-        default: 'no'
+        default: 'false'
         type: choice
         options:
         - yes
