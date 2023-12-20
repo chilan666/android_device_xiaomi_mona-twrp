@@ -3,6 +3,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_redwood.mk
+    $(LOCAL_DIR)/twrp_zijin.mk
 
-COMMON_LUNCH_CHOICES := twrp_redwood-eng
+COMMON_LUNCH_CHOICES := twrp_zijin-eng
