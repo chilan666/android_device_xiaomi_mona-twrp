@@ -26,7 +26,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/brigudav/android_device_xiaomi_redwood_twrp.git'
+        default: 'https://github.com/chilan666/android_device_xiaomi_redwood_twrp'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -34,11 +34,11 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/redwood'
+        default: 'device/xiaomi/zijin'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'redwood'
+        default: 'zijin'
       DEVICE_TYPE:
         description: 'DEVICE_TYPE'
         required: true
@@ -51,7 +51,7 @@ on:
       UPLOAD:
         description: 'Upload to Telegram Bot (true or false)'
         required: true
-        default: 'yes'
+        default: 'no'
         type: choice
         options:
         - yes
