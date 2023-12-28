@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),zijin)
+ifeq ($(TARGET_DEVICE),mona)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
