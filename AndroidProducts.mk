@@ -3,6 +3,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_zijin.mk
+    $(LOCAL_DIR)/twrp_mona.mk
 
-COMMON_LUNCH_CHOICES := twrp_zijin-eng
+COMMON_LUNCH_CHOICES := twrp_mona-eng
