@@ -1,4 +1,4 @@
-name: Recovery Build
+name: Recovery Build mona
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/chilan666/android_device_xiaomi_zijin_twrp'
+        default: 'https://github.com/chilan666/android_device_xiaomi_mona-twrp'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
