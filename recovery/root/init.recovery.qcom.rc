@@ -66,7 +66,7 @@ service set_permissive /system/bin/set_permissive.sh
     oneshot
     seclabel u:r:recovery:s0
 
-service health-hal-2-1 /vendor/bin/hw/android.hardware.health@2.1-service
+service health-hal-2-1 /system/bin/android.hardware.health@2.1-service
     user root
     group root
     disabled

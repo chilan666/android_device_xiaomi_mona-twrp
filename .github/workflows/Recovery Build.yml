@@ -1,4 +1,4 @@
-name: Recovery Build mona
+name: Recovery Build
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-12.1'
+        default: 'android-13'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
