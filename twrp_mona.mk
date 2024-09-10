@@ -20,7 +20,7 @@ BOARD_VENDOR := $(or $(word 2,$(subst /, ,$(firstword $(MAKEFILE_LIST)))),$(valu
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := $(CUSTOM_VENDOR)_$(PRODUCT_RELEASE_NAME)
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Civi 1
+PRODUCT_MODEL := Xiaomi Civi
 PRODUCT_MANUFACTURER := $(BOARD_VENDOR)
 
 # Device path for OEM device tree
