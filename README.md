@@ -1,4 +1,4 @@
-# TWRP Device tree for Xiaomi Civi 1S (codename: mona)
+# TWRP Device tree for Xiaomi Civi (codename: mona)
 ## Device specifications
 | Feature                 | Specification                                                              |
 | :---------------------- | :--------------------------------                                          |
